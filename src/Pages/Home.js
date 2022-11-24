@@ -23,10 +23,10 @@ const Home = () => {
                           <b className="is-visible">GroundWater</b>
                         </span>
                       </h1>
-                    </div>
+                    </div><br></br><br></br>
                     <div className="row">
                       <div className="col-md-4"></div>
-                      <div className="col-md-3"><button className="btn btn-lg btn-light" style={{align:"Center",color:"black",fontSize:"28px"}}>Go to website</button></div>
+                      <div className="col-md-3"><button onClick={()=>{window.location.href = 'https://stackoverflow.com/';}} className="btn btn-light" style={{align:"Center",color:"black",fontSize:"28px"}}>Explore</button></div>
                       <div className="col-md-4"></div>
                     </div>
                   </div>
