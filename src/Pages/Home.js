@@ -1,5 +1,7 @@
 import React from "react";
-
+<style>
+  
+</style>
 const Home = () => {
   return (
     <React.StrictMode>
@@ -15,13 +17,17 @@ const Home = () => {
                       <h1 className="cd-headline clip is-full-width">
                         <span
                           className="cd-words-wrapper"
-                          style={{ width: "266px", overflow: "hidden" }}
-                        >
+                          style={{ width: "266px", overflow: "hidden" }}>
                           <b className="is-hidden">Aquifer Mapping</b>
                           <b className="is-visible">Statistics</b>
                           <b className="is-visible">GroundWater</b>
                         </span>
                       </h1>
+                    </div>
+                    <div className="row">
+                      <div className="col-md-4"></div>
+                      <div className="col-md-3"><button className="btn btn-lg btn-light" style={{align:"Center",color:"black",fontSize:"28px"}}>Go to website</button></div>
+                      <div className="col-md-4"></div>
                     </div>
                   </div>
                 </div>
@@ -33,8 +39,8 @@ const Home = () => {
         </div>
 
         {/* <!-- ================================ Maps =============================== --> */}
-
-        <div id="about">
+        {/* style={{backgroundColor:"#0B0C1D"}} */}
+        <div  id="about">
           <div className="about-content">
             <div className="love-grid text-center">
               <div className="container">
@@ -83,8 +89,8 @@ const Home = () => {
                 <div className="col-md-12">
                   <div className="main-title text-center wow fadeIn">
                     <h3>Statistics</h3>
-                    <div className="underline1"></div>
-                    <div className="underline2"></div>
+                     <div className="underline1"></div>
+                    {/*<div className="underline2"></div> */}
                   </div>
                 </div>
               </div>

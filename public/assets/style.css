@@ -142,7 +142,7 @@ body{
 #main-page-demo {
     width: 100%;
     padding-top: 100px;
-    background: url(img/img1.jpg) 50% 0 no-repeat fixed;
+    /* background: url(img/img1.jpg) 50% 0 no-repeat fixed; */
     margin: 0;
     height: 100%;
     position: relative;
